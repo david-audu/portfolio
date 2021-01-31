@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="746.0" prefWidth="906.0" style="-fx-background-color: FFDF00;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment1_david_audu.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="196.0" layoutY="14.0" text="Ade's Kitchen">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="81.0" text="Size">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="436.0" layoutY="81.0" text="Crust">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="small" layoutX="27.0" layoutY="129.0" mnemonicParsing="false" onAction="#createPizza" text="Small  $8.00" />
+      <RadioButton fx:id="medium" layoutX="26.0" layoutY="163.0" mnemonicParsing="false" onAction="#createPizza" text="Medium $10.00" />
+      <RadioButton fx:id="large" layoutX="27.0" layoutY="200.0" mnemonicParsing="false" onAction="#createPizza" text="Large $12.00" />
+      <RadioButton fx:id="thin" layoutX="435.0" layoutY="129.0" mnemonicParsing="false" onAction="#createPizza" text="Thin" />
+      <RadioButton fx:id="regular" layoutX="435.0" layoutY="163.0" mnemonicParsing="false" onAction="#createPizza" text="Regular" />
+      <RadioButton fx:id="thick" layoutX="435.0" layoutY="200.0" mnemonicParsing="false" onAction="#createPizza" text="Thick" />
+      <Label layoutX="198.0" layoutY="273.0" prefHeight="27.0" prefWidth="92.0" text="TOPPINGS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="cBeef" layoutX="7.0" layoutY="306.0" mnemonicParsing="false" onAction="#createPizza" text="Beef" />
+      <CheckBox fx:id="cSteak" layoutX="7.0" layoutY="331.0" mnemonicParsing="false" onAction="#createPizza" text="Steak *" />
+      <CheckBox fx:id="cPeperoni" layoutX="7.0" layoutY="357.0" mnemonicParsing="false" onAction="#createPizza" text="Peperoni" />
+      <CheckBox fx:id="cHam" layoutX="211.0" layoutY="307.0" mnemonicParsing="false" onAction="#createPizza" text="Ham" />
+      <CheckBox fx:id="cSuasage" layoutX="211.0" layoutY="332.0" mnemonicParsing="false" onAction="#createPizza" text="Suasage" />
+      <CheckBox fx:id="cPineapple" layoutX="211.0" layoutY="358.0" mnemonicParsing="false" onAction="#createPizza" text="Pineapple" />
+      <CheckBox fx:id="cOnion" layoutX="448.0" layoutY="306.0" mnemonicParsing="false" onAction="#createPizza" text="Onion" />
+      <CheckBox fx:id="cMushroom" layoutX="448.0" layoutY="332.0" mnemonicParsing="false" onAction="#createPizza" text="Mushroom" />
+      <CheckBox fx:id="cOlive" layoutX="449.0" layoutY="358.0" mnemonicParsing="false" onAction="#createPizza" text="Olives" />
+      <CheckBox fx:id="cChicken" layoutX="212.0" layoutY="383.0" mnemonicParsing="false" onAction="#createPizza" text="Chicken *" />
+      <Button fx:id="add" layoutX="518.0" layoutY="465.0" mnemonicParsing="false" onAction="#addPizza" text="ADD PIZZA" />
+      <Button fx:id="checkout" layoutX="518.0" layoutY="512.0" mnemonicParsing="false" onAction="#printReciept" text="CHECKOUT" />
+      <ImageView fitHeight="141.0" fitWidth="138.0" layoutX="188.0" layoutY="50.0" style="f-fx-border-radius: 50%;">
+         <image>
+            <Image url="@../images/logo2.jpg" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="cSpinach" layoutX="7.0" layoutY="383.0" mnemonicParsing="false" onAction="#createPizza" text="Spinach" />
+      <CheckBox fx:id="cPeppers" layoutX="448.0" layoutY="383.0" mnemonicParsing="false" onAction="#createPizza" text="Green Peppers" />
+      <Label layoutX="13.0" layoutY="448.0" text="DRINKS" />
+      <CheckBox layoutX="16.0" layoutY="469.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox layoutX="16.0" layoutY="490.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox layoutX="16.0" layoutY="512.0" mnemonicParsing="false" text="CheckBox" />
+      <StackPane fx:id="stack" layoutX="115.0" layoutY="430.0" prefHeight="234.0" prefWidth="334.0" />
+      <Label fx:id="dailySpecial" alignment="CENTER" layoutX="547.0" layoutY="116.0" prefHeight="150.0" prefWidth="299.0" text="Daily Special" />
+    </children>
+</AnchorPane>

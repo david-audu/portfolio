@@ -1,0 +1,16 @@
+Ade's Kitchen
+6075 Mavis Road, 
+Mississauga, ON 
+L5R 4G6
+Wed Jun 19 20:46:24 EDT 2019
+*******************
+Order Number: 1001
+Small Pizza 
+Regular Crust 
+TOPPINGS:  Beef  Peperoni  Ham  Onion 
+Price: $9.75
+----------------------
+----------------------
+Subtotal : $9.75
+Taxes 13% : $1.27
+Total: $11.02
